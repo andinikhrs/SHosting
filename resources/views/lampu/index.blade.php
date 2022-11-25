@@ -48,14 +48,10 @@
                                                 <form action="{{ route('lampu.destroy', $data->id) }}" method="post">
                                                     @csrf
                                                     @method('delete')
-<<<<<<< HEAD
-                                                    
-=======
                                                     <a href="{{ route('lampu.show', $data->id) }}"
                                                         class="btn btn-sm btn-outline-warning">
                                                         <i class="bi bi-info-lg"></i>
                                                     </a>
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                                                 </form>
                                             </td>
                                         </tr>

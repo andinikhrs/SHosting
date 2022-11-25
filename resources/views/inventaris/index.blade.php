@@ -6,29 +6,6 @@
         <div class="col-md-12 ">
             @include('layouts/_flash')
             <div class="card" >
-<<<<<<< HEAD
-                <div class="card-header container-fluid">
-                    <div class="row">
-                        <div class="col-md-6">
-                            Data Inventaris
-                        </div>
-                        <div class="col-md-6" style="float: right">
-                            <div class="mt-5 mx-auto">
-                                <a href="{{ route('inventaris.create') }}" class="btn btn-xs btn-primary" >
-                                    Tambah Data 
-                                </a>
-                                {{-- sm or md --}}
-                                <a href="{{ route('export') }}" class="btn btn-xs btn-primary " >
-                                    Export to Excel
-                                </a>
-            
-                                <a href="{{ route('importInventaris') }}" class="btn btn-xs btn-primary "  data-toggle="modal" data-target="#importExcel">
-                                    Import From Excel
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-=======
                 <div class="card-header">
                     Data Inventaris
                     <a href="{{ route('inventaris.create') }}" class="btn btn-sm btn-primary" style="float: right">
@@ -37,7 +14,6 @@
                     <a href="{{ route('export') }}" class="btn btn-sm btn-primary" style="float: right">
                         Export to Excel
                     </a>
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 </div>
 
                 <div class="card-body">

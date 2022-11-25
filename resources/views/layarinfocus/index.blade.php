@@ -48,14 +48,10 @@
                                                 <form action="{{ route('layarinfocus.destroy', $data->id) }}" method="post">
                                                     @csrf
                                                     @method('delete')
-<<<<<<< HEAD
-                                                   
-=======
                                                     <a href="{{ route('layarinfocus.show', $data->id) }}"
                                                         class="btn btn-sm btn-outline-warning">
                                                         <i class="bi bi-info-lg"></i>
                                                     </a>
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                                                 </form>
                                             </td>
                                         </tr>

@@ -141,10 +141,6 @@ Route::get('/home', function () {
 Auth::routes();
 // Route::get('export_excel','InventarisController@export_excel');
 Route::get('/inventaris/export_excel', [App\Http\Controllers\InventarisController::class, 'export_excel'])->name('export');
-<<<<<<< HEAD
-Route::post('/inventaris/import_excel', [App\Http\Controllers\InventarisController::class, 'import_excel'])->name('importInventaris');
-=======
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('inventaris', InventarisController::class);
 Route::resource('ac', ACController::class);
