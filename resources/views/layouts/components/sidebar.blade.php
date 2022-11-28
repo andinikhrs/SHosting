@@ -2,8 +2,9 @@
   <!-- Brand Logo -->
   <style>
     p {
-	color: #000000;
+	color: hsl(0, 0%, 0%);
 }
+
   </style>
   <a href="index3.html" class="brand-link">
     <img src="{{asset('assets/dist/img/logostfi.png')}}" alt="" class="brand-image img-circle elevation-3" style="opacity: .8">
@@ -63,7 +64,7 @@
           <a href="#" class="nav-link active" style="background-color: #839AA8">
            <img src="{{asset('assets/dist/img/inven.png')}}" width="35px" alt="">
             <p>
-              Nama Barang &  Alat
+              Instalasi
               <i class="right fas fa-angle-left"></i>
             </p>
           </a>
@@ -548,7 +549,33 @@
               </a>
             </li>
           </ul>
-        
+          <li class="nav-item menu-open" >
+            <a href="#" class="nav-link active" style="background-color: #839AA8">
+             <img src="{{asset('assets/dist/img/f.png')}}" width="35px" alt="">
+              <p>
+                Furniture
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item menu-open" >
+            <a href="#" class="nav-link active" style="background-color: #839AA8">
+             <img src="{{asset('assets/dist/img/itkk.png')}}" width="35px" alt="">
+              <p>
+                ATK
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item menu-open" >
+            <a href="#" class="nav-link active" style="background-color: #839AA8">
+             <img src="{{asset('assets/dist/img/labb.png')}}" width="35px" alt="">
+              <p>
+                Laboratorium
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+          </li>
       </ul>
     </nav>
     <!-- /.sidebar-menu -->
