@@ -82,21 +82,13 @@
             </li>
             <li class="nav-item">
               <a href="{{ route('anycast.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/anycast.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>Any Cast</p>
               </a>
             </li>
             <li class="nav-item">
               <a href="{{ route('akrilik.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/akrilik.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>Akrilik</p>
               </a>
             </li>
@@ -108,11 +100,7 @@
             </li>
             <li class="nav-item">
               <a href="{{ route('busa.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/busa.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>Busa</p>
               </a>
             </li>
@@ -124,41 +112,25 @@
             </li>
             <li class="nav-item">
               <a href="{{ route('backdrop.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/backdrop.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>Backdrop</p>
               </a>
             </li>
             <li class="nav-item">
               <a href="{{ route('backwoool.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/backwool.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>Back Wool</p>
               </a>
             </li>
             <li class="nav-item">
               <a href="{{ route('blower.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/air-blower.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>Blower</p>
               </a>
             </li>
             <li class="nav-item">
               <a href="{{ route('boxpvs.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/boxpvc.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>Box PVC 15 In STX 15 A</p>
               </a>
             </li>
@@ -176,11 +148,7 @@
             </li>
             <li class="nav-item">
               <a href="{{ route('cowayheva.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/heva.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>Coway HEVA</p>
               </a>
             </li>
@@ -222,11 +190,7 @@
             </li>
             <li class="nav-item">
               <a href="{{ route('destopswitch.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/ethernet.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>Destop Switch 16 Poin</p>
               </a>
             </li>
@@ -238,21 +202,13 @@
             </li>
             <li class="nav-item">
               <a href="{{ route('exhausetcosmose.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/exha.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>Exhauset Cosmos</p>
               </a>
             </li>
             <li class="nav-item">
               <a href="{{ route('extensen.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/term.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>Extensen</p>
               </a>
             </li>
@@ -312,11 +268,7 @@
             </li>
             <li class="nav-item">
               <a href="{{ route('jackcanon.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/jack.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>Jack Canon NT Hitam (Orange)</p>
               </a>
             </li>
@@ -435,11 +387,7 @@
             </li>
             <li class="nav-item">
               <a href="{{ route('pabx.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/pabx.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>PABX</p>
               </a>
             </li>
@@ -481,11 +429,7 @@
             </li>
             <li class="nav-item">
               <a href="{{ route('selector.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/sw.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>Selector</p>
               </a>
             </li>
@@ -497,11 +441,7 @@
             </li>
             <li class="nav-item">
               <a href="{{ route('skat.index') }}" class="nav-link active" style="background-color: #839AA8">
-<<<<<<< HEAD
-                <img src="{{asset('assets/dist/img/skat.png')}}" width="35px" alt="">
-=======
                 <img src="{{asset('assets/dist/img/laptop.png')}}" width="35px" alt="">
->>>>>>> ba56bb1e8cdec53363acdf27e997f281e98e3768
                 <p>Skat</p>
               </a>
             </li>
