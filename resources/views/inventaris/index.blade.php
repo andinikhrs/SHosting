@@ -6,14 +6,27 @@
         <div class="col-md-12 ">
             @include('layouts/_flash')
             <div class="card" >
-                <div class="card-header">
-                    Data Inventaris
-                    <a href="{{ route('inventaris.create') }}" class="btn btn-sm btn-primary" style="float: right">
-                        Tambah Data 
-                    </a>
-                    <a href="{{ route('export') }}" class="btn btn-sm btn-primary" style="float: right">
-                        Export to Excel
-                    </a>
+                <div class="card-header container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            Data Inventaris
+                        </div>
+                        <div class="col-md-6" style="float: right">
+                            <div class="mt-5 mx-auto">
+                                <a href="{{ route('inventaris.create') }}" class="btn btn-xs btn-primary" >
+                                    Tambah Data 
+                                </a>
+                                {{-- sm or md --}}
+                                <a href="{{ route('export') }}" class="btn btn-xs btn-primary " >
+                                    Export to Excel
+                                </a>
+            
+                                <a href="{{ route('importInventaris') }}" class="btn btn-xs btn-primary "  data-toggle="modal" data-target="#importExcel">
+                                    Import From Excel
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="card-body">
@@ -77,4 +90,32 @@
         </div>
     </div>
 </div> 
+
+{{-- Modal / Popup --}}
+
+<div class="modal fade" id="importExcel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <form method="post" action="{{ route('importInventaris') }}" enctype="multipart/form-data">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Import Excel</h5>
+                </div>
+                <div class="modal-body">
+
+                    {{ csrf_field() }}
+
+                    <label>Pilih file excel</label>
+                    <div class="form-group">
+                        <input type="file" name="file" required="required">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Import</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
 @endsection
